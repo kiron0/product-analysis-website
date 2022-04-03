@@ -6,6 +6,13 @@
     background: bisque;
 }
 
+.title{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 .nav-link{
     display: flex;
     align-items: center;

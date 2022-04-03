@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import  CustomLink  from '../CustomLink/CustomLink';
 import './Header.css'
 
@@ -6,7 +7,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div>
-            <h2>This is Header</h2>
+            <Link className='title' to='/'>Product X Store</Link>
             </div>
             <div className='nav-link'>
             <CustomLink className='link' to='/home'>HOME</CustomLink>
