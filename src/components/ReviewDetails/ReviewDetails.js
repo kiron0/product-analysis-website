@@ -13,8 +13,8 @@ const ReviewDetails = ({review}) => {
             </div>
             <div className='review-details'>
                 <p><strong>Name: {name}</strong></p>
-                <p><strong>Review: </strong>{message}</p>
-                <p><strong>Rating: </strong>{rate} <Rating
+                <p><strong>Review: </strong><span className='message'>{message}</span></p>
+                <p><strong>Rating: {rate} </strong><Rating
                         initialRating={rate}
                         emptySymbol={<FontAwesomeIcon icon={faStar} />}
                         fullSymbol={<FontAwesomeIcon style={{ color: 'rgb(255,223,0)' }} icon={faStar} />}

@@ -20,6 +20,10 @@
     text-align: start;
 }
 
+.message{
+    font-weight: 500;
+}
+
 @media screen and (max-width: 490px){
     .review-details-container{
         display: block;
