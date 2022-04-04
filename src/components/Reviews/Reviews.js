@@ -5,6 +5,8 @@ import './Reviews.css';
 const Reviews = () => {
     const [reviews] = useReviews();
     return (
+        <div className='review-container'>
+            <h2>Customer Reviews ({reviews.length})</h2>
         <div className='reviews'>
             {
                 reviews.map(review => (
@@ -12,6 +14,7 @@ const Reviews = () => {
                     key={review.id} review={review}></ReviewDetails>
                 ))
             }
+        </div>
         </div>
     );
 };
