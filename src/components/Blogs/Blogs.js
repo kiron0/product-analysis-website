@@ -14,11 +14,12 @@ const Blogs = () => {
                 <p>
                 <strong>Semantic HTML</strong> tags allow you to add meaning to your markup so that search engine screen readers and web browser can make sense of it. By default, user agent reads your content, it doesn't understand the context and meaning. <br /> <strong>Semantic HTML</strong> tags let you serve structure content to your users, which is especially important for on-page SEO and accessibility. <strong>Semantic</strong> tags existed in earlier html versions, the HTML 5 specifications added several new semantic element to the syntax both on the block and inline levels.
                 </p><br />
-            <h4>* What is the difference between inline and inline-block element?</h4><br />
+            <h4>* What is the difference between inline and inline-block elements?</h4><br />
                 <p>
-                    <u><strong>Block Elements</strong></u>: <br /> They consume the entire width available irrespective of their sufficiency. they always start in a new line and have top and bottom margins. it does not contain any other elements next to it. <br /><br />
-                    <u><strong>Inline Elements</strong></u>: <br />
-                    Inline Elements occupy is only sufficient width required. Online elements don't start in a new line. Inline elements allow other inline elements to sit behind.
+                <u><strong>Inline Elements</strong></u>: <br />
+                    <strong>Inline Elements</strong> occupy is only sufficient width required. Online elements don't start in a new line. Inline elements allow other inline elements to sit behind. <br /><br />
+                    <u><strong>Inline-Block Elements</strong></u>: <br /> <strong>Inline-Block Elements</strong> are similar to inline elements, except they can have padding and margins added on all four sides.
+                    They consume the entire width available irrespective of their sufficiency. they always start in a new line and have top and bottom margins. it does not contain any other elements next to it.
                 </p>
             </div>
         </div>

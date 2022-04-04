@@ -16,7 +16,7 @@ const Header = () => {
                     <RiMenu4Fill className='nav-icon'></RiMenu4Fill>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mx-auto nav-link py-4">
+                <Nav className="mx-auto nav-link py-5">
                     <CustomLink className='link' to='/home'>HOME</CustomLink>
                     <CustomLink className='link' to='/reviews'>REVIEWS</CustomLink>
                     <CustomLink className='link' to='/dashboard'>DASHBOARD</CustomLink>
