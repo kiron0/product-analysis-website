@@ -18,8 +18,17 @@ git clone https://github.com/programming-hero-web-course-4/product-analysis-webs
 ```
 
 ```bash
+cd product-analysis-website-kiron0
+```
+
+```bash
 npm install
 ```
+
+```bash
+code .
+```
+
 ```bash
 npm start
 ```
