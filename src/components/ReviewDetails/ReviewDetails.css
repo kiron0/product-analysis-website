@@ -1,0 +1,35 @@
+.review-details-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    border: 1px solid;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.review-details-container img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.review-details{
+    text-align: start;
+}
+
+@media screen and (max-width: 490px){
+    .review-details-container{
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+        border: 1px solid;
+        margin: 2rem auto;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+    .review-details-container img{
+        margin-bottom: 2rem;
+    }
+}
