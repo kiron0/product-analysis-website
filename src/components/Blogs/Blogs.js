@@ -8,20 +8,17 @@ const Blogs = () => {
         <div className='blogs'>
             <div className='blogs-info'>
             <h2>Frequently Asked Questions</h2>
-            <h4>* What is Context API?</h4>
-                <p>React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. It designs simple views for each state in your application, and React will efficiently update and render just the right component when your data changes.
-                    </p>
-            <h4>* What is Semantic Tags?</h4>
+            <h4>* What is Context API?</h4><br />
+                <p><strong>The React Context API</strong> is a way for a react app to effectively produce global variable that can be passes around, this is the alternative to props drilling or moving props from parent to child to current and so on. <strong>React.createContext()</strong> is all you need. It returns a consumer and provider. <strong>The Context API</strong> is a React structure that enables you to exchange unique details and assists in solving props-drilling from all levels of your application.</p><br />
+            <h4>* What is Semantic Tags?</h4><br />
                 <p>
-                    <strong><u>Props</u></strong><br />
-                    1. Props are read-only. <br />
-                    2. Props are immutable. <br />
-                    3. Props can be accessed by the child component. <br />
-                    4. Props are used to communicate between components. <br />
-                    5. Props make components reusable.
-                </p>
-            <h4>* What is the difference between inline and inline-block element?</h4>
-                <p>useState is a React Hook that allows you to have state variables in functional components. You have to pass the initial state to this function and it returns a variable with the current state value and another function to update this value.
+                <strong>Semantic HTML</strong> tags allow you to add meaning to your markup so that search engine screen readers and web browser can make sense of it. By default, user agent reads your content, it doesn't understand the context and meaning. <br /> <strong>Semantic HTML</strong> tags let you serve structure content to your users, which is especially important for on-page SEO and accessibility. <strong>Semantic</strong> tags existed in earlier html versions, the HTML 5 specifications added several new semantic element to the syntax both on the block and inline levels.
+                </p><br />
+            <h4>* What is the difference between inline and inline-block element?</h4><br />
+                <p>
+                    <u><strong>Block Elements</strong></u>: <br /> They consume the entire width available irrespective of their sufficiency. they always start in a new line and have top and bottom margins. it does not contain any other elements next to it. <br /><br />
+                    <u><strong>Inline Elements</strong></u>: <br />
+                    Inline Elements occupy is only sufficient width required. Online elements don't start in a new line. Inline elements allow other inline elements to sit behind.
                 </p>
             </div>
         </div>
