@@ -47,7 +47,7 @@ const Dashboard = () => {
                 <div className='line-chart'>
                     <h3 className=''>Month Wise Sell</h3>
                     <LineChart width={400} height={300} data={data}
-                        margin={{ top: 5, right: 30, left: 5, bottom: 5 }}>
+                        margin={{ top: 5, right: 30, left: -15, bottom: 5 }}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
@@ -59,7 +59,7 @@ const Dashboard = () => {
                 <div className='line-chart'>
                 <h3>Investment VS Revenue</h3>
                 <AreaChart width={400} height={300} data={data}
-                    margin={{ top: 5, right: 30, left: 5, bottom: 5 }}>
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
                         <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8}/>
@@ -81,7 +81,8 @@ const Dashboard = () => {
                 </div>
                 <div className='line-chart'>
                 <h3>Investment VS Revenue</h3>
-                <BarChart width={400} height={300} data={data} margin={{ top: 5, right: 30, left: 5, bottom: 5 }}>
+                <BarChart width={400} height={300} data={data} 
+                margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
                     <YAxis />

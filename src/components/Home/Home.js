@@ -1,5 +1,5 @@
 import React from 'react';
-import Car from './images/bugatti2.jpg';
+import Car from './images/bugatti.jpg';
 import './Home.css'
 import { Link } from 'react-router-dom';
 
