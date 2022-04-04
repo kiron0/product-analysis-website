@@ -10,68 +10,36 @@ const About = () => {
                 <div className='about'>
                     <div>
                         <h1 className='about-header'>
-                            Basic Questions
+                        BUGATTI ETHICS AND CULTURE
                         </h1>
                         <p className='about-title'>
-                            What is accessibility?
+                        INTEGRITY AND COMPLIANCE
                         </p>
                         <p>
-                            This article starts off the module with a good look at what
-                            accessibility is — this includes what groups of people we need to
-                            consider and why, what tools different people use to interact with
-                            the web, and how we can make accessibility part of our web
-                            development workflow.
+                        The success of the BUGATTI brand is underpinned by honesty and integrity on the part of all our employees. By acting in accordance with national and international laws and regulations, internal guidelines and voluntary commitments, we always repay the considerable trust shown in the BUGATTI brand by our customers, business partners and stakeholders on a daily basis. An ethos of integrity, irreproachable conduct and fair dealings with each other are not merely something we take for granted - these values are deeply rooted in our brand identity. Upholding and further strengthening our system of values is one of the main duties of our company.
                         </p>
                         <p className='about-title'>
-                            HTML: A good basis for accessibility?
+                        DIVERSITY
                         </p>
                         <p>
-                            A great deal of web content can be made accessible just by making
-                            sure the correct HTML elements are always used for the correct
-                            purpose.
-                        </p>
-                        <p className='about-title'>
-                            CSS and JavaScript accessibility best practices?
-                        </p>
-                        <p>
-                            CSS and JavaScript, when used properly, also have the potential to
-                            allow for accessible web experiences, but if misused they can
-                            significantly harm accessibility. This article outlines some CSS and
-                            JavaScript best practices that should be considered to ensure that
-                            even complex content is as accessible as possible.
+                        The BUGATTI brand has valued customers, passionate enthusiasts and outstanding employees across the globe. In order to do justice to cultural differences in international markets and keep pace with increasing economic growth, BUGATTI is proud of the impressive array of experiences, world views, ideas and problem-solving strategies that can be applied on account of the diversity of its workforce. As such, diversity management is a crucial element of our brand's HR strategy.
                         </p>
                     </div>
                     <div>
                         <h1 className='about-header'>
-                            Advanced Questions
+                        BUGATTI CAREERS
                         </h1>
                         <p className='about-title'>
-                            WAI-ARIA basics, WAI-ARIA basics, WAI-ARIA basics, WAI-ARIA basics?
+                        UPHOLD HISTORY
                         </p>
-                        <p className='text-gray-600'>
-                            Following on from the previous article, sometimes making complex UI
-                            controls that involve unsemantic HTML and dynamic JavaScript-updated
-                            content can be difficult. WAI-ARIA is a technology that can help
-                            with such problems by adding in further semantics that browsers and
-                            assistive technologies can recognize and use to let users know what
-                            is going on. Here we'll show how to use it at a basic level to
-                            improve accessibility.
+                        <p>
+                        An inimitable vision, the powerful tradition of legendary sportscars as well as the precise craftsmanship in development, construction and manufacturing, shape the brand since being founded by Ettore Bugatti in 1909. Until today, the brand embodies the pursuit of sublime perfection. A tradition to which we feel committed and that we want to carry forward with you.
                         </p>
                         <p className='about-title'>
-                            Accessible multimedia?
+                        CREATE THE ULTIMATE
                         </p>
-                        <p className='text-gray-600'>
-                            Another category of content that can create accessibility problems
-                            is multimedia — video, audio, and image content need to be given
-                            proper textual alternatives, so they can be understood by assistive
-                            technologies and their users. This article shows how.
-                        </p>
-                        <p className='about-title'>
-                            Mobile accessibility?
-                        </p>
-                        <p className='text-gray-600'>
-                            With web access on mobile devices being so popular, and popular
-                            platforms such as iOS and Android.
+                        <p>
+                        At the very core of what we are doing, you will find the creation of automotive milestones of timeless excellence. With the Chiron family we produce the most powerful and exclusive hyper sports car in the world, exploring different facets of performance. The Divo, the Centodieci and the legendary La Voiture Noire further broaden the understanding of what's possible, reflecting the modern interpretation of Bugatti's coachbuilding tradition. Become part of these masterpieces.
                         </p>
                     </div>
                 </div>

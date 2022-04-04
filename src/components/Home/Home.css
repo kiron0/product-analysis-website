@@ -48,7 +48,7 @@
         margin: 0 auto;
     }
     .home-img img{
-        margin-top: 1.5rem;
+        margin-top: 3.5rem;
         width: 300px;
         border-radius: 1.5rem;
     }
@@ -62,7 +62,7 @@
     }
     .home-text p{
         font-size: 1.2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
     .reverse{
         order: 1;

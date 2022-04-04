@@ -4,8 +4,8 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
-            <div className='blogs'>
+        <>
+        <div className='blogs'>
             <div className='blogs-info'>
             <h2>Frequently Asked Questions</h2>
             <h4>* What is Context API?</h4>
@@ -26,7 +26,7 @@ const Blogs = () => {
             </div>
         </div>
         <Footer></Footer>
-        </div>
+        </>
     );
 };
 

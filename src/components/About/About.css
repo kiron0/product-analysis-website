@@ -11,13 +11,16 @@
     margin-bottom: 2rem;
     margin: 0 auto;
 }
+.about p{
+    font-weight: 500;
+}
 
 .about-header{
     font-size: 2rem;
 }
 
 .about-title{
-    font-weight: 600;
+    font-weight: 600 !important;
     margin-top: 2.5rem;
 }
 

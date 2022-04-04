@@ -6,6 +6,7 @@ import NotFound from './components/NotFound/NotFound';
 import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
+import HomeReview from './components/HomeReview/HomeReview';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,8 +15,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/' element={<><Home></Home><HomeReview></HomeReview></>}></Route>
+        <Route path='/home' element={<><Home></Home><HomeReview></HomeReview></>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>

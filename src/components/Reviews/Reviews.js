@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import useReviews from '../../hooks/useReviews';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
+import './Reviews.css';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('https://raw.githubusercontent.com/kiron0/reviewsFakeData/main/data.json')
-            .then(response => response.json())
-            .then(data => setReviews(data))
-    }, [])
+    const [reviews] = useReviews();
     return (
-        <div>
+        <div className='reviews'>
             {
                 reviews.map(review => (
                     <ReviewDetails 
