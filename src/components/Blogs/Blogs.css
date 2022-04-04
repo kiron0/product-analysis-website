@@ -10,5 +10,6 @@
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
         margin-top: 3rem;
+        margin-bottom: 2rem;
     }
 }

@@ -1,8 +1,10 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import './About.css';
 
 const About = () => {
     return (
+        <>
         <div>
             <section className='about-container'>
                 <div className='about'>
@@ -75,6 +77,8 @@ const About = () => {
                 </div>
             </section>
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 

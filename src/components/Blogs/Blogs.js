@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import BlogDetails from '../BlogDetails/BlogDetails';
+import Footer from '../Footer/Footer';
 import './Blogs.css'
 
 const Blogs = () => {
@@ -11,6 +12,7 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
     return (
+        <>
         <div className='blogs-container'>
             {
                 blogs.map(blog => 
@@ -21,6 +23,8 @@ const Blogs = () => {
                 </BlogDetails>)
             }
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 

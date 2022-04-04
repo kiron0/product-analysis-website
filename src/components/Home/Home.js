@@ -12,7 +12,7 @@ const Home = () => {
                 DELIVERING BRUTAL PERFORMANCE
                 IN TOTAL COMFORT.
                 </p>
-                <Link to='/' className='home-btn'>Live Demo</Link>
+                <Link to='/home' className='home-btn'>Live Demo</Link>
             </div>
             <div className='home-img'>
                 <img src={Car} alt="" />
