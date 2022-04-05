@@ -1,15 +1,18 @@
-# Bugatti Sports Car Store
+# BUGATTI CHIRON Sports Car Store
 
-It's a simple React Web App to show about Bugatti Sports Car with public reviews.
+### It's a simple React base Web App.
+### Here you can see the details about The Expensive BUGATTI CHIRON Sport Car with some public reviews.
 
 ## The following things in this project:
 
 * There are 5 Routes with React Router
+* Reviews
 * Public Reviews
-* About Store
+* About
 * Blogs
 * Other's data.
 
+### You can see the result here.. [Click Me](https://sports-car-store.netlify.app/)
 
 ## Installation
 
@@ -36,10 +39,10 @@ npm start
 ## Prerequisites
 
 The following open source packages are used in this project:
-* React
+* React JS v18
 * React Bootstrap
 * Raw CSS
-* React Router DOM
+* React Router DOM v6
 * React Icons
 * React Fontawesome Icons
 * React Rating etc.
