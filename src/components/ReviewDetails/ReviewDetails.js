@@ -1,7 +1,6 @@
 import React from 'react';
 import Rating from 'react-rating';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {ImStarEmpty, ImStarFull} from 'react-icons/im';
 import './ReviewDetails.css'
 
 const ReviewDetails = ({review}) => {
@@ -12,14 +11,16 @@ const ReviewDetails = ({review}) => {
                 <img src={image} alt="" />
             </div>
             <div className='review-details'>
-                <p><strong>Name: {name}</strong></p>
-                <p><strong>Review: </strong><span className='message'>{message}</span></p>
-                <p><strong>Rating: {rate} </strong><Rating
-                        initialRating={rate}
-                        emptySymbol={<FontAwesomeIcon icon={faStar} />}
-                        fullSymbol={<FontAwesomeIcon style={{ color: 'rgb(255,223,0)' }} icon={faStar} />}
-                        readonly
-                    ></Rating></p>
+                <p>
+                    <strong style={{fontSize: '1.1rem'}}><u>User</u>: {name}</strong>
+                </p>
+                <p><strong><u>Review</u>: </strong><span className='message'>{message}</span></p>
+                <p>
+                    <strong><u>Rating</u>: {rate} </strong>
+                    <Rating style={{fontSize: '1rem', marginLeft: '5px'}} initialRating={rate} emptySymbol={<ImStarEmpty/>} 
+                    fullSymbol={<ImStarFull style={{ color: '#fada5f' }} />} readonly>
+                    </Rating>
+                </p>
             </div>
         </div>
     );
