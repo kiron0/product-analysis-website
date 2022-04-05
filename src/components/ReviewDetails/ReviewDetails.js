@@ -17,8 +17,8 @@ const ReviewDetails = ({review}) => {
                 <p><strong><u>Review</u>: </strong><span className='message'>{message}</span></p>
                 <p>
                     <strong><u>Rating</u>: {rate} </strong>
-                    <Rating style={{fontSize: '1rem', marginLeft: '5px'}} initialRating={rate} emptySymbol={<ImStarEmpty/>} 
-                    fullSymbol={<ImStarFull style={{ color: '#fada5f' }} />} readonly>
+                    <Rating style={{fontSize: '1rem', marginLeft: '5px'}} initialRating={rate} emptySymbol={<ImStarEmpty style={{ color: '#fdde6c' }} />} 
+                    fullSymbol={<ImStarFull style={{ color: '#fdde6c' }} />} readonly>
                     </Rating>
                 </p>
             </div>
