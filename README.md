@@ -12,16 +12,15 @@
 * Blogs
 * Other's data.
 
-### You can see the result here.. [Click Me](https://sports-car-store.netlify.app/)
+### You can see me here.. [Click Me](https://sports-car-store.netlify.app/)
 
 ## Installation
 
-```bash
-git clone https://github.com/programming-hero-web-course-4/product-analysis-website-kiron0.git
+```bash https://github.com/kiron0/09-Assignment-product-analysis-website-kiron0.git
 ```
 
 ```bash
-cd product-analysis-website-kiron0
+cd 09-Assignment-product-analysis-website-kiron0
 ```
 
 ```bash
@@ -44,7 +43,7 @@ The following open source packages are used in this project:
 * Raw CSS
 * React Router DOM v6
 * React Icons
-* React Fontawesome Icons
+* React Font Awesome Icons
 * React Rating etc.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
