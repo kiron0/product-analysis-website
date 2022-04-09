@@ -16,7 +16,8 @@
 
 ## Installation
 
-```bash https://github.com/kiron0/09-Assignment-product-analysis-website-kiron0.git
+```bash
+git clone https://github.com/kiron0/09-Assignment-product-analysis-website-kiron0.git
 ```
 
 ```bash
